@@ -1,0 +1,11 @@
+name: Methodology Question or Bug Report
+description: Report a dashboard display issue or ask a question about the static-analysis heuristics.
+title: "[Feedback] "
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the issue, repository report URL, or methodology question.
+    validations:
+      required: true
